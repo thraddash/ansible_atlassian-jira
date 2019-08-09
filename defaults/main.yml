@@ -1,0 +1,30 @@
+---
+# defaults file for atlassian-jira
+atlassian_jira_packages: "{{ __atlassian_jira_packages }}"
+
+
+atlassian_jira_version: 8.2.3
+
+atlassian_jira_type: software
+
+atlassian_jira_baseurl: https://www.atlassian.com/software/jira/downloads/binary
+atlassian_jira_basedir: /opt/atlassian
+atlassian_jira_home: /srv/atlassian/jira
+
+atlassian_jira_user: jira
+atlassian_jira_uid: 10001
+atlassian_jira_group: jira
+atlassian_jira_gid: 10001
+
+
+atlassian_jira_server_xml: []
+
+atlassian_jira_jvm_opts: []
+
+# related to CrowdSSO
+atlassian_jira_crowd: false
+atlassian_jira_crowd_url: http://localhost:8095/crowd
+
+atlassian_jira_crowd_properties: []
+
+atlassian_jira_seraph_config: []
