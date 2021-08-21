@@ -15,6 +15,10 @@ platforms:
     image: debian:9
   - name: ubuntu-18.04
     image: ubuntu:18.04
+  - name: ubuntu-19.04
+    image: ubuntu:19.04
+  - name: ubuntu-20.04
+    image: ubuntu:20.04
   - name: centos-7
     image: centos:7
 provisioner:
