@@ -3,8 +3,9 @@ dependency:
   name: galaxy
 driver:
   name: docker
-lint:
-  name: yamllint
+lint: |
+  yamllint .
+  ansible-lint .
   options:
     config-file: molecule/default/yaml-lint.yml
 platforms:
