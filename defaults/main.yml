@@ -3,7 +3,7 @@
 atlassian_jira_packages: "{{ __atlassian_jira_packages }}"
 
 
-atlassian_jira_version: 8.2.3
+atlassian_jira_version: 8.18.2
 
 atlassian_jira_type: software
 
